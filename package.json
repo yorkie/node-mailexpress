@@ -1,10 +1,10 @@
 {
-	"name": "node-mailexpress",
-	"version": "0.0.1",
+  "name": "mailexpress",
+  "version": "0.0.1",
   "author": "Yorkie <yorkiefixer@gmail.com>",
-	"scripts": {
-		"test": "tape test/*.js",
+  "scripts": {
+    "test": "tape test/*.js",
     "demo": "node example/demo"
-	},
+  },
   "main": "index.js"
 }

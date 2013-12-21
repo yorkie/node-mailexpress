@@ -7,7 +7,7 @@ var MailClient = require('./lib/client').MailClient;
 
 function MailExpress(option) {
   EventEmitter.call(this);
-	this._option = option;
+  this._option = option;
   this._server = net.createServer(option, this._onConnection.bind(this));
   this._clients = [];
 }
@@ -22,9 +22,9 @@ MailExpress.prototype.listen = function(port, callback) {
  * set the max connections number
  */
 MailExpress.prototype._setMaxConnection = function(n) {
-	if (typeof n !== 'number')
-		throw new Error('Please set max connection number by a number');
-	this._maxConnections = n;
+  if (typeof n !== 'number')
+    throw new Error('Please set max connection number by a number');
+  this._maxConnections = n;
 }
 
 /*
