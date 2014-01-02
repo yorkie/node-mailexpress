@@ -1,6 +1,7 @@
 {
   "name": "mailexpress",
   "version": "0.0.1",
+  "description": "a light-weight imap server in pure Javascript.",
   "author": "Yorkie <yorkiefixer@gmail.com>",
   "scripts": {
     "test": "tape test/*.js",
